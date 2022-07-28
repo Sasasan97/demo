@@ -1,14 +1,58 @@
-{
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+[
+  {
+    "id": 1,
+    "name": "Temmin Snap Wexley",
+    "typeEs": "Piloto",
+    "typeEn": "Pilot",
+    "img": "/assets/img/temmin.jpg",
+    "planet": "Akiva",
+    "death": "35 DBY, Exegol",
+    "shipEs": "RZ-1",
+    "shipEn": "RZ-1"
+  },
+  {
+    "id": 2,
+    "name": "Luke Skywalker",
+    "typeEs": "Piloto",
+    "typeEn": "Pilot",
+    "img": "/assets/img/luke.jpg",
+    "planet": "Tatooine",
+    "death": "34 DBY, Ahch-To",
+    "shipEs": "Caza Ala-X",
+    "shipEn": "X-Wing Starfighter"
+  },
+  {
+    "id": 3,
+    "name": "RZ-1",
+    "typeEs": "Nave",
+    "typeEn": "Ship",
+    "img": "/assets/img/rz1.jpg",
+    "velocity": 1300
+  },
+  {
+    "id": 4,
+    "name": "Ala-X",
+    "typeEs": "Nave",
+    "typeEn": "Ship",
+    "img": "/assets/img/navecazax.jpg",
+    "velocity": 2100
+  },
+  {
+    "id": 5,
+    "name": "Akiva",
+    "img": "/assets/img/akiva.png",
+    "typeEs": "Planeta",
+    "typeEn": "Planet",
+    "city": "Myrra",
+    "species": "Ahia-ko & Uugteenos"
+  },
+  {
+    "id": 6,
+    "name": "Tatooine",
+    "img": "/assets/img/tatooine.jpg",
+    "typeEs": "Planeta",
+    "typeEn": "Planet",
+    "city": "Mos Eisley",
+    "species": "Jawa & Incursor Tusken"
   }
-}
+]
