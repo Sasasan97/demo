@@ -5,45 +5,35 @@
             "name": "Temmin Snap Wexley",
             "img": "/assets/img/temmin.jpg",
             "planet": "Akiva",
-            "death": "35 DBY, Exegol",
-            "shipId": 3,
-            "planetId": 5
+            "death": "35 DBY, Exegol"
         },
         {
           "id": 2,
           "name": "Luke Skywalker",
           "img": "/assets/img/luke.jpg",
           "planet": "Tatooine",
-          "death": "34 DBY, Ahch-To",
-          "shipId": 4,
-          "planetId": 6
+          "death": "34 DBY, Ahch-To"
         }],
     "ships": [
         {
-          "id": 3,
+          "id": 1,
           "name": "RZ-1",
           "img": "/assets/img/rz1.jpg",
           "velocidad": 1300,
           "long": 9.6,
           "price": 110.000,
-          "planetId": 5,
-          "pilotId": 1
         },
         {
-          "id": 4,
+          "id": 2,
           "name": "Ala-X",
           "img": "/assets/img/navecazax.jpg",
           "velocidad": 2100,
           "long": 12.5,
-          "price": 200.000,
-          "planetId": 6,
-          "pilotId": 2
+          "price": 200.000
         }],
   "planets": [
         {
-          "id": 5,
-          "shipId": 3,
-          "pilotId": 1,
+          "id": 1,
           "name": "Akiva",
           "img": "/assets/img/akiva.png",
           "clima": "Caluroso",
@@ -51,9 +41,7 @@
           "species": "Ahia-ko & Uugteenos"
         },
         {
-          "id": 6,
-          "shipId": 4,
-          "pilotId": 2,
+          "id": 2,
           "name": "Tatooine",
           "img": "/assets/img/tatooine.jpg",
           "typeEs": "Planeta",
